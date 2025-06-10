@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after{
+ padding:0 ;
+ box-sizing: border-box;   
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:linear-gradient(40deg, purple,darkmagenta,darkorchid,darkviolet, violet);
+    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+.card{
+    padding: 20px ;
+    border: 1px solid violet;
+    background: mediumorchid;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+    z-index: 5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+h1, h2{
+    margin: 10px 0;
+}
+p{
+    font-size: 14px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+.social-link a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: blue;
+}
+.social-link a:hover{
+    text-decoration: underline;
+}

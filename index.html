@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Okeke James | PostFolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Animation Background Elements-->
+    <div class="bg-elements">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="square square-1"></div>
+        <div class="square square-2"></div>
+        <div class="triangle triangle-1"></div>
+    </div>
+
+    <!--Navigation-->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">OC</a>
+            <div class="nav-links">
+                <a href="#home" class="nav-link active ">Home</a>
+                <a href="#about" class="nav-link ">About</a>
+                <a href="#work" class="nav-link ">Work</a>
+                <a href="#contact" class="nav-link ">Contact</a>
+            </div>
+            <div class="menu-toggle">
+               <div class="bar"></div> 
+               <div class="bar"></div> 
+               <div class="bar"></div> 
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-word title-word-1">Hello,</span>
+                    <span class="title-word title-word-1">I'm</span>
+                    <span class="title-word title-word-1">Okeke</span>
+                    <span class="title-word title-word-1">James</span>
+                </h1>
+                <p class="hero-subtitle">Junoir Software Enginner</p>
+                <div class="hero-buttons">
+                    <a href="#work" class="btn btn-primary">View Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="IMG-20241229-WA0018.jpg" alt="Okeke James" class="profile-img">
+                    <div class="image-border"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--About Section-->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate developer and designer with over 2 years of experience creating digital experience that matter.</p>
+                    <p>My approach combines technical expertise with creative vision to deliver solution that are functional and beautiful.</p>
+                    <div class="skill">
+                        <h3>My Skills</h3>
+                        <div class="skill-bars">
+                            <div class="skill-bar">
+                                <div class="skill-name">UI/UX Design</div>
+                                <div class="skill-progress" data-width="90%">
+                                    <div class="progress-bar"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-name">Frontend Developer</div>
+                                <div class="skill-progress" data-width="90%">
+                                    <div class="progress-bar"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-name"> JavaScript </div>
+                                <div class="skill-progress" data-width="70%">
+                                    <div class="progress-bar"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-name">Html/CSS</div>
+                                <div class="skill-progress" data-width="90%">
+                                    <div class="progress-bar"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-name">Animation</div>
+                                <div class="skill-progress" data-width="75%">
+                                    <div class="progress-bar"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-name"> Web Frameworks</div>
+                                <div class="skill-progress" data-width="39%">
+                                    <div class="progress-bar"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="floating-card">
+                        <div class="card-content">
+                            <h3>Fun Fact</h3>
+                            <p>I once coded a complete website while skydiving (not really, but I do love extreme coding!) </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work" class="work">
+        <div class="container">
+            <h2 class="section-title">My Work</h2>
+            <div class="work-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Designs</button>
+                <button class="filter-btn" data-filter="apps">Apps</button>
+                <button class="filter-btn" data-filter="graphics">Graphics/Animation</button>
+            </div>
+            <div class="work-grid">
+                <div class="work-item" data-category="web">
+                    <div class="work-card">
+                        <div class="work-img">
+                            <img src="https://via.placeholder.com/600x400" alt=" Progect 1">
+                        </div>
+                        <div class="work-overlay">
+                           <h3> E-commerce Website </h3>
+                           <p>Mordern online store with custom CMS</p>
+                           <a href="http://127.0.0.1:5500/index.html" class="work-link"> View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item" data-category="app">
+                    <div class="work-card">
+                        <div class="work-img">
+                            <img src="https://via.placeholder.com/600x400" alt=" Progect 2">
+                        </div>
+                        <div class="work-overlay">
+                           <h3> Fitness App </h3>
+                           <p>AI-powered workout companion</p>
+                           <a href="#" class="work-link"> View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item" data-category="graphics">
+                    <div class="work-card">
+                        <div class="work-img">
+                            <img src="https://via.placeholder.com/600x400" alt=" Progect 3">
+                        </div>
+                        <div class="work-overlay">
+                           <h3> Brand Identity </h3>
+                           <p>Complete branding for tech startup</p>
+                           <a href="#" class="work-link"> View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item" data-category="web">
+                    <div class="work-card">
+                        <div class="work-img">
+                            <img src="https://via.placeholder.com/600x400" alt=" Progect 4">
+                        </div>
+                        <div class="work-overlay">
+                           <h3> Portfolio Website </h3>
+                           <p>Minimalist design for photographer</p>
+                           <a href="#" class="work-link"> View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item" data-category="app">
+                    <div class="work-card">
+                        <div class="work-img">
+                            <img src="https://via.placeholder.com/600x400" alt=" Progect 5">
+                        </div>
+                        <div class="work-overlay">
+                           <h3> Travel Planner </h3>
+                           <p> Itinerary generator with maps</p>
+                           <a href="#" class="work-link"> View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item" data-category="graphics">
+                    <div class="work-card">
+                        <div class="work-img">
+                            <img src="https://via.placeholder.com/600x400" alt=" Progect 6">
+                        </div>
+                        <div class="work-overlay">
+                           <h3> Poster Series </h3>
+                           <p> Topography-focused art prints</p>
+                           <a href="#" class="work-link"> View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>okekechukwudalu92@gmail.com</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone</h3>
+                        <p> +234 7026390438</p>
+                        
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Location</h3>
+                        <p> Nnewi, Anambra, Nigeria. </p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-github"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form action="" id="contactForm">
+                        <div class="form-group">
+                            <input type="text"  id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email"  id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text"  id="subject" placeholder=" Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary"> Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Okeke Chukwudalu. All right reserved.</p>
+            <a href="#home" class="back-to-top">
+                <i class="fas fa-arrow-up"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
