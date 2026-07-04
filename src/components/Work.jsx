@@ -25,14 +25,21 @@ export default function Work() {
         </div>
         <div className="work-grid">
           {visible.map((project) => (
-            <div className="work-card" key={project.title}>
+            <a
+              className="work-card"
+              key={project.title}
+              href={project.url}
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={project.image} alt={project.title} />
               <div className="work-overlay">
                 <span className="work-tag">{project.category}</span>
                 <h3>{project.title}</h3>
                 <p>{project.description}</p>
+                <span className="work-link">Visit site →</span>
               </div>
-            </div>
+            </a>
           ))}
         </div>
       </div>

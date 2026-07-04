@@ -1,0 +1,24 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glowEWP" cx="30%" cy="70%" r="75%">
+      <stop offset="0%" stop-color="#132420" />
+      <stop offset="100%" stop-color="#0b1512" />
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#glowEWP)" />
+
+  <!-- studio grid columns motif -->
+  <g opacity="0.35" stroke="#7fb69b" stroke-width="2">
+    <line x1="360" y1="120" x2="360" y2="780" />
+    <line x1="480" y1="120" x2="480" y2="780" />
+    <line x1="600" y1="120" x2="600" y2="780" />
+    <line x1="720" y1="120" x2="720" y2="780" />
+    <line x1="840" y1="120" x2="840" y2="780" />
+  </g>
+  <rect x="480" y="380" width="240" height="140" fill="#f4f1ea" opacity="0.08" stroke="#f4f1ea" stroke-opacity="0.4" />
+
+  <text x="600" y="460" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="700" fill="#f4f1ea" letter-spacing="1">Eleven Wells</text>
+  <text x="600" y="508" text-anchor="middle" font-family="'Courier New', monospace" font-size="20" letter-spacing="4" fill="#7fb69b">DIGITAL PRODUCT STUDIO</text>
+
+  <rect x="540" y="550" width="120" height="3" fill="#7fb69b" />
+</svg>

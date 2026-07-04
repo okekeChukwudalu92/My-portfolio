@@ -1,0 +1,32 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glowEWB" cx="70%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#132420" />
+      <stop offset="100%" stop-color="#0b1512" />
+    </radialGradient>
+    <linearGradient id="accentEWB" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f4f1ea" />
+      <stop offset="100%" stop-color="#7fb69b" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#glowEWB)" />
+
+  <!-- stacked article lines motif -->
+  <g transform="translate(600,300)">
+    <rect x="-220" y="0" width="440" height="14" rx="7" fill="#7fb69b" opacity="0.85" />
+    <rect x="-220" y="34" width="320" height="10" rx="5" fill="#f4f1ea" opacity="0.5" />
+    <rect x="-220" y="58" width="380" height="10" rx="5" fill="#f4f1ea" opacity="0.35" />
+    <rect x="-220" y="82" width="260" height="10" rx="5" fill="#f4f1ea" opacity="0.25" />
+  </g>
+
+  <text x="600" y="500" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="80" font-weight="700" fill="#f4f1ea" letter-spacing="1">Eleven Wells</text>
+  <text x="600" y="548" text-anchor="middle" font-family="'Courier New', monospace" font-size="20" letter-spacing="4" fill="#7fb69b">BLOG · DEMO EDITION</text>
+
+  <rect x="540" y="590" width="120" height="3" fill="url(#accentEWB)" />
+
+  <g opacity="0.5">
+    <circle cx="120" cy="770" r="3" fill="#7fb69b" />
+    <circle cx="150" cy="770" r="3" fill="#7fb69b" />
+    <circle cx="180" cy="770" r="3" fill="#7fb69b" />
+  </g>
+</svg>
