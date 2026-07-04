@@ -1,0 +1,37 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glowTT" cx="30%" cy="25%" r="70%">
+      <stop offset="0%" stop-color="#2a2340" />
+      <stop offset="100%" stop-color="#0d0b16" />
+    </radialGradient>
+    <linearGradient id="accentTT" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c4b5fd" />
+      <stop offset="100%" stop-color="#7c3aed" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#glowTT)" />
+
+  <!-- dot grid texture -->
+  <g fill="#ffffff" opacity="0.05">
+    <circle cx="60" cy="60" r="2" /><circle cx="120" cy="60" r="2" /><circle cx="180" cy="60" r="2" />
+    <circle cx="60" cy="120" r="2" /><circle cx="120" cy="120" r="2" /><circle cx="180" cy="120" r="2" />
+    <circle cx="1020" cy="780" r="2" /><circle cx="1080" cy="780" r="2" /><circle cx="1140" cy="780" r="2" />
+    <circle cx="1020" cy="840" r="2" /><circle cx="1080" cy="840" r="2" /><circle cx="1140" cy="840" r="2" />
+  </g>
+
+  <!-- open book motif -->
+  <g transform="translate(600,330)" opacity="0.9">
+    <path d="M -160 40 C -160 10, -120 0, 0 20 C 120 0, 160 10, 160 40 L 160 90 C 160 60, 120 50, 0 70 C -120 50, -160 60, -160 90 Z"
+          fill="none" stroke="url(#accentTT)" stroke-width="4" />
+    <line x1="0" y1="20" x2="0" y2="70" stroke="url(#accentTT)" stroke-width="4" />
+    <line x1="-120" y1="35" x2="-40" y2="30" stroke="#c4b5fd" stroke-width="2" opacity="0.6" />
+    <line x1="-120" y1="50" x2="-40" y2="45" stroke="#c4b5fd" stroke-width="2" opacity="0.6" />
+    <line x1="40" y1="30" x2="120" y2="35" stroke="#c4b5fd" stroke-width="2" opacity="0.6" />
+    <line x1="40" y1="45" x2="120" y2="50" stroke="#c4b5fd" stroke-width="2" opacity="0.6" />
+  </g>
+
+  <text x="600" y="560" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="88" font-weight="700" fill="#f4f1ff" letter-spacing="1">Time-Tales</text>
+  <text x="600" y="610" text-anchor="middle" font-family="'Courier New', monospace" font-size="20" letter-spacing="4" fill="#c4b5fd">A HOME FOR SERIALIZED STORIES</text>
+
+  <rect x="540" y="650" width="120" height="3" fill="url(#accentTT)" />
+</svg>

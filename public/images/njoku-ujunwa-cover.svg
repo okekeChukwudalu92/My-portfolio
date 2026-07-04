@@ -1,0 +1,35 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glowNJ" cx="50%" cy="35%" r="75%">
+      <stop offset="0%" stop-color="#2a1518" />
+      <stop offset="100%" stop-color="#120a0c" />
+    </radialGradient>
+    <linearGradient id="accentNJ" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fda4af" />
+      <stop offset="100%" stop-color="#e11d48" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#glowNJ)" />
+
+  <!-- camera aperture motif -->
+  <g transform="translate(600,330)">
+    <circle cx="0" cy="0" r="110" fill="none" stroke="url(#accentNJ)" stroke-width="4" opacity="0.9" />
+    <circle cx="0" cy="0" r="70" fill="none" stroke="#fda4af" stroke-width="2" opacity="0.5" />
+    <g stroke="#fda4af" stroke-width="2" opacity="0.6">
+      <line x1="0" y1="-110" x2="0" y2="-70" />
+      <line x1="0" y1="70" x2="0" y2="110" />
+      <line x1="-110" y1="0" x2="-70" y2="0" />
+      <line x1="70" y1="0" x2="110" y2="0" />
+      <line x1="-78" y1="-78" x2="-49" y2="-49" />
+      <line x1="49" y1="49" x2="78" y2="78" />
+      <line x1="78" y1="-78" x2="49" y2="-49" />
+      <line x1="-49" y1="49" x2="-78" y2="78" />
+    </g>
+    <circle cx="0" cy="0" r="16" fill="url(#accentNJ)" />
+  </g>
+
+  <text x="600" y="530" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="700" fill="#fdf2f2" letter-spacing="1">Njoku Ujunwa</text>
+  <text x="600" y="574" text-anchor="middle" font-family="'Courier New', monospace" font-size="20" letter-spacing="4" fill="#fda4af">VIDEOGRAPHER &amp; CONTENT CREATOR</text>
+
+  <rect x="540" y="614" width="120" height="3" fill="url(#accentNJ)" />
+</svg>

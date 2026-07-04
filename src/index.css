@@ -440,6 +440,7 @@ section {
 
 .work-card {
   position: relative;
+  display: block;
   border-radius: 14px;
   overflow: hidden;
   aspect-ratio: 4 / 3;
@@ -481,6 +482,13 @@ section {
 .work-overlay p {
   color: var(--muted);
   font-size: 0.88rem;
+  margin-bottom: 10px;
+}
+
+.work-overlay .work-link {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--accent);
 }
 
 .work-card:hover img {
