@@ -3,10 +3,10 @@ import { stats, traits } from '../data.js'
 
 export default function About() {
   const [filled, setFilled] = useState(false)
-  const sheetRef = useRef(null)
+  const panelRef = useRef(null)
 
   useEffect(() => {
-    const el = sheetRef.current
+    const el = panelRef.current
     if (!el) return
     const observer = new IntersectionObserver(
       ([entry]) => {
@@ -26,7 +26,7 @@ export default function About() {
       <div className="container about-grid">
         <div className="about-text">
           <p className="eyebrow">About</p>
-          <h2 className="section-title">Character Sheet</h2>
+          <h2 className="section-title">More Info</h2>
           <p>
             I'm a software engineer who treats shipping products a lot like clearing levels:
             plan the run, build the thing, fix what breaks, and go again.
@@ -44,17 +44,17 @@ export default function About() {
             ))}
           </div>
         </div>
-        <div className="stat-sheet" ref={sheetRef}>
-          <div className="stat-sheet-title">// Skill Tree</div>
+        <div className="match-panel" ref={panelRef}>
+          <div className="match-panel-title">Skills Match</div>
           {stats.map((stat) => (
-            <div className="stat-row" key={stat.name}>
-              <div className="stat-row-top">
-                <span className="stat-name">{stat.name}</span>
-                <span className="stat-level">LVL {stat.level}</span>
+            <div className="match-row" key={stat.name}>
+              <div className="match-row-top">
+                <span className="match-name">{stat.name}</span>
+                <span className="match-pct">{stat.xp}% Match</span>
               </div>
-              <div className="stat-track">
+              <div className="match-track">
                 <div
-                  className={`stat-fill ${filled ? 'filled' : ''}`}
+                  className={`match-fill ${filled ? 'filled' : ''}`}
                   style={{ transform: filled ? `scaleX(${stat.xp / 100})` : 'scaleX(0)' }}
                 />
               </div>
